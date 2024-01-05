@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import "style-guide";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    background: $primary-background-1;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-base;
+    font-size: 1.6rem;
+}
