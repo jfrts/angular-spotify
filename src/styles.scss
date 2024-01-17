@@ -28,7 +28,7 @@ ul {
 }
 
 html {
-    background: $primary-light-1;
+    background: $grayscale-0;
     font-size: 62.5%;
 }
 
@@ -51,10 +51,21 @@ body {
         @extend .btn;
 
         background-color: $primary-default;
-        color: $primary-light-1;
+        color: $grayscale-0;
 
         &:hover {
             background-color: lighten($primary-default, 10);
+        }
+    }
+
+    &-primary-dark {
+        @extend .btn;
+
+        background-color: $grayscale-0;
+        color: $grayscale-9;
+
+        &:hover {
+            background-color: darken($grayscale-0, 10);
         }
     }
 

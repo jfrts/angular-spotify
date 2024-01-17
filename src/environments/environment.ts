@@ -10,6 +10,6 @@ export const SpotifyConfiguration = {
         "user-modify-playback-state", // alterar o player do usuário
         "user-library-read", // ler biblioteca do usuário
         "playlist-read-private", // ler playlists privadas
-        "plylist-read-collaborative", // ler playlists colaborativas
+        "playlist-read-collaborative", // ler playlists colaborativas
     ]
 };

@@ -1,9 +1,8 @@
 @import "style-guide";
 
 :host {
-    background-image: url("../../../assets/images/login-background.jpg");
-    background-size: cover;
-    color: $primary-dark;
+    background-color: $grayscale-0;
+    color: $grayscale-9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,28 +13,27 @@
     .base {
         align-items: center;
         backdrop-filter: blur(12px);
-        background-color: #ffffff40;
-        border-radius: 4.8rem;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        background-color: $primary-default;
+        border-radius: 1.6rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 64rem;
         margin: 0 auto;
-        padding: 14rem 0;
+        padding: 10rem 0;
         width: 100%;
 
         img {
-            max-width: 50%;
+            max-width: 40%;
             margin-bottom: 3.2rem;
         }
 
         p {
-            color: darken($color: #72a4ff, $amount: 60);
-            font-size: 2rem;
+            color: $grayscale-3;
+            font-size: 1.8rem;
             line-height: 150%;
             margin-bottom: 4.2rem;
-            max-width: 70%;
+            max-width: 60%;
             text-align: center;
         }
     }
